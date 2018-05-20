@@ -1,0 +1,46 @@
+// based on a keyboard map from an 'xkb/symbols/de' file
+
+default
+xkb_symbols "basic" {
+
+    include "latin(type4)"
+
+    name[Group1]="GermanHe";
+    key <AE02>  { [         2,   quotedbl,  twosuperior,    oneeighth ] };
+    key <AE03>  { [         3,    section, threesuperior,    sterling ] };
+    key <AE04>  { [         4,     dollar,   onequarter,     currency ] };
+
+    key <AE11> {type[Group1]="FOUR_LEVEL_PLUS_LOCK",  symbols[Group1]=
+                  [period, question, backslash, questiondown, 0x1001E9E ]};
+
+    key <AE12>  { [minus, underscore, equal,  dead_ogonek ] };
+
+    key <AD03>  { [         e,          E,     EuroSign,     EuroSign ] };
+    key <AD06>  { [         z,          Z,    leftarrow,          yen ] };
+    key <AD12>  { [      plus,   asterisk,   asciitilde,  macron ]  };
+
+    key <AC02>  { [         s,          S,                U017F,     U1E9E    ] };
+    key <AC07>  { [         j,          J,        dead_belowdot, dead_abovedot   ] };
+    key <TLDE>  { [dead_circumflex, degree, U2032,    U2033 ] };
+
+    key <BKSL>  { [numbersign, apostrophe, rightsinglequotemark,   dead_breve ] };
+    key <AB01>  { [         y,          Y,       guillemotright,    U203A   ] };
+    key <AB02>  { [         x,          X,        guillemotleft,    U2039   ] };
+    key <AB04>  { [         v,          V,   doublelowquotemark, singlelowquotemark ]   };
+    key <AB05>  { [         b,          B,  leftdoublequotemark, leftsinglequotemark ] };
+    key <AB06>  { [         n,          N, rightdoublequotemark, rightsinglequotemark ] };
+    key <AB08>  { [     comma,  semicolon,       periodcentered,     multiply   ] };
+    key <AB09>  { [    period,      colon,                U2026,     division   ] };
+    key <AB10>  { [     minus, underscore,               endash,     emdash ] };
+    key <LSGT>  { [     less,     greater,                  bar,     NoSymbol   ] };
+
+    key <AD11>  { [slash, bar, dead_diaeresis, dead_abovering ] };
+
+    key <AC10>  { [parenleft, bracketleft, braceleft, dead_belowdot ] };
+    key <AC11>  { [parenright, bracketright, braceright, dead_caron ] };
+    include "kpdl(comma)"
+
+    include "level3(ralt_switch)"
+
+
+};
