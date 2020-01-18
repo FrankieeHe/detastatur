@@ -1,9 +1,9 @@
-relayout for german keybroad
+relayout for german keybroad and english DH
 
 Version: Ubuntu 16.04
 place hee under: :/usr/share/X11/xkb/symbols/
 replace evdev.xml under :/usr/share/X11/xkb/rules/ 
-restart keybroad manager with command: systemctl restart keybroad-setup
+restart keybroad manager with command: systemctl restart keyboard-setup
 After this you can check the new keybroad source in text entry settings
 
 What changed:
