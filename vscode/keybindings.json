@@ -1,0 +1,71 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+b",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+l",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "alt+n",
+        "command": "editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "f3",
+        "command": "-editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+n",
+        "command": "workbench.action.terminal.findNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "f3",
+        "command": "-workbench.action.terminal.findNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+n",
+        "command": "workbench.action.terminal.findNext",
+        "when": "terminalFindWidgetFocused"
+    },
+    {
+        "key": "f3",
+        "command": "-workbench.action.terminal.findNext",
+        "when": "terminalFindWidgetFocused"
+    },
+    {
+        "key": "f3",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "alt+f",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "alt+n f",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "alt+n v",
+        "command": "explorer.newFolder"
+    }
+]
